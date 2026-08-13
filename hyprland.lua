@@ -52,7 +52,7 @@ hl.config({ -- gaps between windows/screen borders
     gaps_in          = 3,
     gaps_out         = 5,
 
-    border_size      = 2, -- the border around windows
+    border_size      = 0, -- the border around windows
 
     col              = {
       active_border   = { colors = { "rgba(ffffffff)", "rgba(ffffffff)" }, angle = 0 },
