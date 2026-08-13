@@ -1,4 +1,4 @@
-# walls
+# dots
 that's my dotfiles for personal use but you can use them,
 # required packages
 hyprland awww
