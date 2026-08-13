@@ -60,7 +60,7 @@ hl.config({ -- gaps between windows/screen borders
     },
 
     -- enabeling this makes you able to resize windows by pulling the borders
-    resize_on_border = true,
+    resize_on_border = false,
 
     -- visit the hyprland wiki if you're intrested in that
     allow_tearing    = false,
@@ -164,7 +164,7 @@ hl.config({
 
 hl.config({
   input = {
-    kb_layout    = "us,ara", -- add languages here for them to be availble on the keyboard
+    kb_layout    = "us", -- add languages here for them to be availble on the keyboard
     kb_variant   = "",
     kb_model     = "",
     kb_options   = "grp:alt_shift_toggle", -- alt shift language switch
