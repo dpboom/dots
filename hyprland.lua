@@ -27,7 +27,6 @@ local menu        = "rofi -show drun" -- app menu
 
 hl.on("hyprland.start", function()
   --   hl.exec_cmd(terminal)
-  hl.exec_cmd("dunst &") --notefication manager
   hl.exec_cmd("awww-daemon &") -- wallpaper daemon
 end)
 
