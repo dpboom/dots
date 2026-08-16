@@ -68,8 +68,8 @@ hl.config({ -- gaps between windows/screen borders
   },
 
   decoration = { -- round corners
-    rounding         = 11, -- 11 is preferred but you always can do your own rice
-    rounding_power   = 2.7,
+    rounding         = 9, -- 11 is preferred but you always can do your own rice
+    rounding_power   = 3,
 
     -- dont change that
     active_opacity   = 1.0,
