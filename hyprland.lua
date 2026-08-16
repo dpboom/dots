@@ -75,7 +75,7 @@ hl.config({ -- gaps between windows/screen borders
     active_opacity   = 1.0,
     inactive_opacity = 1.0,
 
-    -- dont change that too
+    -- shadows around windows
     shadow           = {
       enabled      = false,
       range        = 4,
