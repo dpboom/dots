@@ -68,7 +68,7 @@ hl.config({ -- gaps between windows/screen borders
   },
 
   decoration = { -- round corners
-    rounding         = 9, -- 11 is preferred but you always can do your own rice
+    rounding         = 9, --  set to 0 for sharp corners
     rounding_power   = 3,
 
     -- dont change that
@@ -84,7 +84,7 @@ hl.config({ -- gaps between windows/screen borders
     },
 
     blur             = { -- blur
-      enabled  = false, --set to true for blur
+      enabled  = true, --set to false for no blur
       size     = 6,
       passes   = 3,
       vibrancy = 0,
