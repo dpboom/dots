@@ -68,7 +68,7 @@ hl.config({ -- gaps between windows/screen borders
   },
 
   decoration = { -- round corners
-    rounding         = 9, --  0 for no rounding 4 for small rounding
+    rounding         = 9, --  0 for sharp corners
     rounding_power   = 3,
 
     -- dont change that
