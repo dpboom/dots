@@ -85,7 +85,7 @@ hl.config({ -- gaps between windows/screen borders
 
     blur             = { -- blur
       enabled  = true, --set to false for no blur
-      size     = 6,
+      size     = 4,
       passes   = 3,
       vibrancy = 0,
     },
