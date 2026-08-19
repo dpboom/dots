@@ -1,7 +1,7 @@
 # dots
 that's my dotfiles for personal use but you can use them,
 # required packages
-hyprland ghostty awww zen-browser yazi adawaitamono-nerd
+hyprland kitty awww zen-browser yazi adawaitamono-nerd
 # instructions
 step 1: git clone https://github.com/dpboom/dots.git
 step 2: cd dots
