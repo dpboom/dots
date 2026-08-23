@@ -27,8 +27,9 @@ local menu        = "rofi -show drun" -- app menu
 
 hl.on("hyprland.start", function()
   --   hl.exec_cmd(terminal)
-  hl.exec_cmd("awww-daemon &") -- wallpaper daemon
-end)
+  hl.exec_cmd("awww-daemon &") -- wallpaper daemon 
+  hl.exec_cmd("waybar &") -- waybar
+  end)
 
 
 -------------------------------
@@ -171,7 +172,7 @@ hl.config({
 
     follow_mouse = 1,
 
-    sensitivity  = 0, -- 0 means no modification.
+    sensitivity  = 0, -- mouse speed,0 default less is slower more is faster [example: -0.4]
 
     touchpad     = {
       natural_scroll = true, -- if scrolling is weird set as false
