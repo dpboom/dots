@@ -1,6 +1,8 @@
-mv ~/dots/hyprland.lua ~/.config/hypr/hyprland.lua
-mv ~/dots/kitty.conf ~/.config/kitty/kitty.conf
+mv hyprland.lua ~/.config/hypr/hyprland.lua
+mv kitty.conf ~/.config/kitty/kitty.conf
+mv config.jsonc ~/.config/waybar/config.jsonc
+mv style.css ~/.config/waybar/style.css
 xdg-mime default mpv.desktop image/*
 xdg-mime default mpv.desktop video/*
-rm -rf ~/dots
+rm -rf ../dots
 sudo reboot
