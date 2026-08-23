@@ -1,0 +1,29 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces", "hyprland/submap"],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "temperature", "memory", "contrast", "battery"],
+    "hyprland/window": {
+        "max-length": 50
+    },
+    "battery": {
+        "format": "{capacity} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+        "format": "{:%I:%M}",
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "temperature": {
+        "format": "{temperatureC} {icon}",
+        "format-icons": [""]
+    },
+    "memory": {
+        "format": "{icon} {percentage}%",
+        "format-icons": [""]
+    },
+    "cpu": {
+	    "format": "{icon} {usage}%",
+	    "format-icons": ["󰍛"]
+    }
+}
