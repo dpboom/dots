@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-    background-color: rgba(30, 30, 30, 0.5);
+    background-color: rgba(30, 30, 30, 0.3);
     color: #1a1a1a;
     transition-property: background-color;
     transition-duration: .5s;
@@ -98,29 +98,25 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    color: #ffffff
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
         color: #000000;
     }
 }
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -134,31 +130,26 @@ button:hover {
 }
 
 #power-profiles-daemon.performance {
-    background-color: #f53c3c;
     color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
-    background-color: #2980b9;
     color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
     color: #000000;
 }
 
 label:focus {
-    background-color: #000000;
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    color: #ffffff;
 }
 
 #memory {
-    background-color: #9b59b6;
+    color: #ffffff;
 }
 
 #disk {
@@ -211,7 +202,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    color: #ffffff;
 }
 
 #temperature.critical {
