@@ -11,4 +11,4 @@ step 5: after rebooting do 'hyprctl monitors' to output your monitor and put it 
 # that's it !
 to change a wallpaper write in the terminal "awww img 'wallpaper-path' [example:awww img walls/wp.png]
 # NOTE:
-its preferred you read the entierty of ~/.config/hypr/hyprand.lua so you have a good idea of what you're doing
+its preferred you read the entierty of ~/.config/hypr/hyprand.lua so you can customize it freely
