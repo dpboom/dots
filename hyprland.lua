@@ -2,7 +2,7 @@
 ---- MONITORS ----
 ------------------
 
-hl.monitor({ -- fetch monitor name via the 'hyprctl monitors' command
+hl.monitor({ -- fetch monitor name via the `hyprctl monitors` command
   output   = "", -- monitor label [example:DP-1]
   mode     = "preferred", -- reselution [example:1920x1080@120]
   position = "auto",
