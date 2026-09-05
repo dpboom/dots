@@ -2,7 +2,7 @@
     "layer": "top",
     "modules-left": ["hyprland/workspaces", "hyprland/submap"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "temperature", "memory", "contrast", "battery"],
+    "modules-right": ["cpu", "temperature", "memory", "battery"],
     "hyprland/window": {
         "max-length": 50
     },
