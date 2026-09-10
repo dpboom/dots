@@ -1,16 +1,41 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
-  "logo": {
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
     "type": "small"
+    // "source": "/path/to/dir"
   },
   "modules": [
-    "os",
-    "shell",
-    "de",
-    "wm",
-    "terminal",
-    "cpu",
-    "gpu",
-    "memory"
-  ]
+{
+	"type": "os",
+	"key": ""
+},
+{
+    "type": "shell",
+    "key": ""
+},
+{
+    "type": "de",
+    "key": "󰢹"
+},
+{
+    "type": "wm",
+    "key": "󱂬"
+},
+{
+    "type": "terminal",
+    "key": ""
+},
+{
+    "type": "cpu",
+    "key": "󰍛"
+},
+{
+	"type": "gpu",
+	"key": ""
+},
+    {
+    "type": "memory",
+    "key": ""
+    }
+]
 }
