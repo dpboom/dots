@@ -2,8 +2,9 @@
 "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 "logo": {
 	"type": "small",
-    "height": 18,
-    "width": 37
+	/* "source: "/path/to img", */
+    "height": 15,
+    "width": 10
   },
   "modules": [
 {
