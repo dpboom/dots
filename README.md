@@ -1,7 +1,7 @@
 # dots
 that's my dotfiles for personal use but you can use them,
 # required packages
-hyprland fuzzel imagemagick kitty awww waybar zen-browser yazi ttf-adwaitamono-nerd
+hyprland fuzzel imagemagick kitty fastfetch awww waybar zen-browser yazi ttf-adwaitamono-nerd
 # instructions
 step 1: `https://github.com/dpboom/dots.git`
 step 2:  `cd dots`
@@ -13,4 +13,6 @@ to change a wallpaper write in the terminal `awww img wallpaper/path` [example:`
 # keybinds:
 super+f fullscreen,super+q open terminal,super+c close window,super+z open zen browser
 # NOTE:
-its preferred you read .config/kitty/kitty.conf .config/waybar/config.jsonc .config/waybar/style.css and .config/hypr/hyprland.lua to change rice the setup
+its preferred you read .config/kitty/kitty.conf .config/waybar/config.jsonc .config/waybar/style.css and .config/hypr/hyprland.lua
+.config/fastfetch/confug.jsonc
+to change rice the setup
