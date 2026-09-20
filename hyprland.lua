@@ -28,8 +28,8 @@ local browser     = "zen-browser" -- browser
 
 hl.on("hyprland.start", function()
   --   hl.exec_cmd(terminal)
-  hl.exec_cmd("awww-daemon &") -- wallpaper daemon 
-  hl.exec_cmd("waybar &") -- waybar
+  hl.exec_cmd("awww-daemon") -- wallpaper daemon 
+  hl.exec_cmd("waybar") -- waybar
   end)
 
 
