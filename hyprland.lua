@@ -212,6 +212,7 @@ hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd("zen-browser")) -- replace zen browse
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" })) -- fullscreen
+hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("grim"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
