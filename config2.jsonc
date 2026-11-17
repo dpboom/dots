@@ -47,6 +47,11 @@
     "type": "memory",
     "keyColor": "#ffffff",
     "key": ""
-    }
+    },
+"break",
+{
+"type": "colors",
+"symbol": "circle"
+}
 ]
 }
